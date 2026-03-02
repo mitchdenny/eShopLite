@@ -1,0 +1,84 @@
+{
+  "$schema": "https://aka.ms/aspire/template-index-schema/v1",
+  "version": 1,
+  "templates": [
+    {
+      "name": "eshoplite-01-semanticsearch",
+      "displayName": "eShopLite - Semantic Search",
+      "description": "eShopLite with Semantic Search using Keyword and Vector Search",
+      "path": "scenarios/01-SemanticSearch/src"
+    },
+    {
+      "name": "eshoplite-02-azureaisearch",
+      "displayName": "eShopLite - Azure AI Search",
+      "description": "eShopLite with Azure AI Search for Semantic Search",
+      "path": "scenarios/02-AzureAISearch/src"
+    },
+    {
+      "name": "eshoplite-03-realtimeaudio",
+      "displayName": "eShopLite - Realtime Audio",
+      "description": "eShopLite with Realtime Audio Chat and advanced search",
+      "path": "scenarios/03-RealtimeAudio/src"
+    },
+    {
+      "name": "eshoplite-04-chromadb",
+      "displayName": "eShopLite - ChromaDB",
+      "description": "eShopLite with Semantic Search using ChromaDB",
+      "path": "scenarios/04-chromadb/src"
+    },
+    {
+      "name": "eshoplite-05-deepseek",
+      "displayName": "eShopLite - DeepSeek",
+      "description": "eShopLite with Semantic Search using DeepSeek",
+      "path": "scenarios/05-deepseek/src"
+    },
+    {
+      "name": "eshoplite-06-mcp",
+      "displayName": "eShopLite - MCP",
+      "description": "eShopLite with Model Context Protocol (MCP)",
+      "path": "scenarios/06-mcp/src"
+    },
+    {
+      "name": "eshoplite-07-agentsconcurrent",
+      "displayName": "eShopLite - Concurrent Agents",
+      "description": "eShopLite with Concurrent Agent Orchestration using Semantic Kernel",
+      "path": "scenarios/07-AgentsConcurrent/src"
+    },
+    {
+      "name": "eshoplite-08-sql2025",
+      "displayName": "eShopLite - SQL Server 2025",
+      "description": "eShopLite with Semantic Search using SQL Server 2025 vector search",
+      "path": "scenarios/08-Sql2025/src"
+    },
+    {
+      "name": "eshoplite-09-azureappservice",
+      "displayName": "eShopLite - Azure App Service",
+      "description": "eShopLite deployed to Azure App Service with .NET Aspire",
+      "path": "scenarios/09-AzureAppService/src"
+    },
+    {
+      "name": "eshoplite-10-a2anet",
+      "displayName": "eShopLite - A2A .NET",
+      "description": "eShopLite with Agent-to-Agent Orchestration using A2A .NET SDK",
+      "path": "scenarios/10-A2ANet/src"
+    },
+    {
+      "name": "eshoplite-11-githubmodels",
+      "displayName": "eShopLite - GitHub Models",
+      "description": "eShopLite with GitHub Models (local-first)",
+      "path": "scenarios/11-GitHubModels/src"
+    },
+    {
+      "name": "eshoplite-12-azurefunctions",
+      "displayName": "eShopLite - Azure Functions",
+      "description": "eShopLite with Azure Functions, Store, Products and Semantic Search",
+      "path": "scenarios/12-AzureFunctions/src"
+    },
+    {
+      "name": "eshoplite-14-mafdevui",
+      "displayName": "eShopLite - MAF Dev UI",
+      "description": "eShopLite with MAF Dev UI",
+      "path": "scenarios/14-MAFDevUI"
+    }
+  ]
+}

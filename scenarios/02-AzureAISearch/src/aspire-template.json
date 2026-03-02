@@ -1,0 +1,30 @@
+{
+  "$schema": "https://aka.ms/aspire/template-schema/v1",
+  "version": 1,
+  "name": "eshoplite-02-azureaisearch",
+  "displayName": "eShopLite - Azure AI Search",
+  "description": "eShopLite with Azure AI Search for Semantic Search",
+  "scope": ["new"],
+  "variables": {
+    "projectName": {
+      "type": "string",
+      "displayName": "Project name",
+      "description": "The name for your project.",
+      "required": true,
+      "defaultValue": "eShopLite",
+      "validation": {
+        "pattern": "^[A-Za-z][A-Za-z0-9_.]*$",
+        "message": "Project name must start with a letter and contain only letters, digits, dots, or underscores."
+      }
+    }
+  },
+  "substitutions": {
+    "filenames": {
+      "eShopLite": "{{projectName}}"
+    },
+    "content": {
+      "eShopLite": "{{projectName}}",
+      "eshoplite": "{{projectName | lowercase}}"
+    }
+  }
+}

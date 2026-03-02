@@ -1,0 +1,30 @@
+{
+  "$schema": "https://aka.ms/aspire/template-schema/v1",
+  "version": 1,
+  "name": "eshoplite-10-a2anet",
+  "displayName": "eShopLite - A2A .NET",
+  "description": "eShopLite with Agent-to-Agent Orchestration using A2A .NET SDK",
+  "scope": ["new"],
+  "variables": {
+    "projectName": {
+      "type": "string",
+      "displayName": "Project name",
+      "description": "The name for your project.",
+      "required": true,
+      "defaultValue": "eShopLite",
+      "validation": {
+        "pattern": "^[A-Za-z][A-Za-z0-9_.]*$",
+        "message": "Project name must start with a letter and contain only letters, digits, dots, or underscores."
+      }
+    }
+  },
+  "substitutions": {
+    "filenames": {
+      "eShopLite": "{{projectName}}"
+    },
+    "content": {
+      "eShopLite": "{{projectName}}",
+      "eshoplite": "{{projectName | lowercase}}"
+    }
+  }
+}

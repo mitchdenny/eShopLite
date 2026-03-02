@@ -1,0 +1,30 @@
+{
+  "$schema": "https://aka.ms/aspire/template-schema/v1",
+  "version": 1,
+  "name": "eshoplite-05-deepseek",
+  "displayName": "eShopLite - DeepSeek",
+  "description": "eShopLite with Semantic Search using DeepSeek",
+  "scope": ["new"],
+  "variables": {
+    "projectName": {
+      "type": "string",
+      "displayName": "Project name",
+      "description": "The name for your project.",
+      "required": true,
+      "defaultValue": "eShopLite",
+      "validation": {
+        "pattern": "^[A-Za-z][A-Za-z0-9_.]*$",
+        "message": "Project name must start with a letter and contain only letters, digits, dots, or underscores."
+      }
+    }
+  },
+  "substitutions": {
+    "filenames": {
+      "eShopLite": "{{projectName}}"
+    },
+    "content": {
+      "eShopLite": "{{projectName}}",
+      "eshoplite": "{{projectName | lowercase}}"
+    }
+  }
+}
